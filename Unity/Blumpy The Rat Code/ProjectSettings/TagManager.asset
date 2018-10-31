@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Goo
+  - Door
+  - PickUp
+  - Trigger
+  - Audio
+  - Play
+  - Quit
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Walls
+  - Traps
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 3349691499
+    locked: 0
+  - name: Goo
+    uniqueID: 1987254727
+    locked: 0
+  - name: Obstacles
+    uniqueID: 1322238559
+    locked: 0
+  - name: Player
+    uniqueID: 186872999
+    locked: 0
+  - name: Background
+    uniqueID: 2396502029
+    locked: 0

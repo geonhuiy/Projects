@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+Here's more tests
+Jamie's a stoopud but michael is the greatest thing in the world 
+=======
+Here's more tests here's more tests
+>>>>>>> f97074235c4ef111bd589c319b1c588eaecf1a4e
