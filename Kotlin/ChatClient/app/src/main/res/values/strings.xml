@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ChatClient</string>
+    <string name="loginprompt">Please enter the IP address and the port</string>
+    <string name="title_activity_test">test</string>
+</resources>

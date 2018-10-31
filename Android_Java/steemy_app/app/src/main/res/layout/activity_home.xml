@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/a2"
+    android:orientation="vertical"
+    tools:context="com.example.knutsen.steemy.HomeActivity"
+
+
+    >
+
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="63dp"
+        android:background="@drawable/pin4" />
+
+    <TextView
+        android:id="@+id/tempView"
+        android:layout_width="97dp"
+        android:layout_height="100dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/map"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/thermometer"
+        android:backgroundTint="@color/tintColor"
+        android:contentDescription="@string/temp_numbers"
+        android:fontFamily="@font/handwriting"
+        android:gravity="center"
+        android:text="@string/testTemp"
+        android:textColor="@color/b4"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/batteryView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="189dp"
+        android:background="@drawable/battery"
+        android:backgroundTint="@color/tintColor"
+        android:fontFamily="@font/handwriting"
+        android:gravity="center"
+        android:text="@string/testBatt"
+        android:textColor="@color/b4"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/lumView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignEnd="@+id/tempView"
+        android:layout_alignTop="@+id/batteryView"
+        android:background="@drawable/sun"
+        android:backgroundTint="@color/tintColor"
+        android:fontFamily="@font/handwriting"
+        android:gravity="center"
+        android:text="@string/testLum"
+        android:textColor="@color/b4"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/humView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/pressView"
+        android:layout_alignTop="@+id/map"
+        android:background="@drawable/humidity"
+        android:backgroundTint="@color/tintColor"
+        android:fontFamily="@font/handwriting"
+        android:gravity="center"
+        android:text="@string/testHumidity"
+        android:textColor="@color/b4"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/pressView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/batteryView"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/pressure"
+        android:backgroundTint="@color/tintColor"
+        android:fontFamily="@font/handwriting"
+        android:gravity="center"
+        android:text="@string/testPress"
+        android:textColor="@color/b4"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/distance"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-76dp"
+        android:fontFamily="@font/handwriting"
+        android:gravity="center"
+        android:text="@string/saunaStatus"
+        android:textColor="@color/b5"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
+        android:fontFamily="@font/handwriting"
+        android:text="@string/_1050m"
+        android:gravity="center"
+        android:textColor="@color/b3"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/saunaStatusBar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/batteryView"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentStart="true"
+        android:fontFamily="@font/handwriting"
+        android:gravity="center"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/settButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/tint"
+        android:fontFamily="@font/handwriting"
+        android:text="@string/settings"
+        android:onClick="setttingsButtonMethod"
+
+         />
+
+</android.widget.RelativeLayout>

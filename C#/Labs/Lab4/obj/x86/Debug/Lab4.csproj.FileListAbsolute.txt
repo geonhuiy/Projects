@@ -1,0 +1,5 @@
+C:\Users\Jamie\Documents\Projects\AllLabs\Lab4\bin\Debug\Lab4.exe
+C:\Users\Jamie\Documents\Projects\AllLabs\Lab4\bin\Debug\Lab4.pdb
+C:\Users\Jamie\Documents\Projects\AllLabs\Lab4\obj\x86\Debug\Lab4.csprojResolveAssemblyReference.cache
+C:\Users\Jamie\Documents\Projects\AllLabs\Lab4\obj\x86\Debug\Lab4.exe
+C:\Users\Jamie\Documents\Projects\AllLabs\Lab4\obj\x86\Debug\Lab4.pdb

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">SteemY</string>
+    <string name="pig">pig</string>
+    <string name="steemy">SteemY</string>
+    <string name="status">Sauna Status</string>
+    <string name="map">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="humid">Humidity</string>
+    <string name="batt">Battery Level</string>
+    <string name="lum">Lumens</string>
+    <string name="pressure">Pressure</string>
+    <string name="two">cabin</string>
+    <string name="temp">Temperature</string>
+    <string name="saunaStatus">Sauna Status</string>
+    <string name="cabin">cabin</string>
+
+    <string name="testTemp">N/A</string>
+    <string name="testBatt">N/A</string>
+    <string name="testLum">N/A</string>
+    <string name="testPress">N/A</string>
+    <string name="testHumidity">N/A</string>
+
+
+    <string name="tempView">tempView</string>
+    <string name="temp_numbers">temp numbers</string>
+    <string name="_1050m">Calculating Distance To Sauna</string>
+    <string name="email">kristoferknutsen@hotmail.com</string>
+    <string name="password">slednecks1</string>
+    <string name="settings">Settings</string>
+
+
+    <string name="saunaOff">Sauna is OFF</string>
+    <string name="saunaHeating">Sauna is HEATING</string>
+    <string name="saunaOn">Sauna is ON</string>
+    <string name="gettingSaunaStatus">Checking Sauna Status...</string>
+
+
+
+    <string name="lightsOn">Lights ON</string>
+    <string name="lightsOff">Lights OFF</string>
+    <string name="turnSaunaOn">Sauna ON</string>
+    <string name="turnSaunaOff">Sauna OFF</string>
+    <string name="TurnOnMusic">Music ON</string>
+    <string name="TurnOffMusic">Music Off</string>
+
+
+
+
+
+</resources>
