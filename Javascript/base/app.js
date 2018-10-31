@@ -3,7 +3,7 @@
     http           = require('http'),
 	request        = require('request'),
     app            = express(),
-	token = 'EAAgnt2ED3DQBAP2GcpyPiXJ2HqOZA0OZAJZCiXYXwVrmG2Jyd8YWWxjymNA6ZATIZAXLJqQeqJkxZCRP0udkcVMMhJ1qYsyK97wzcGOPtpgVUYkqxVGYWeDhwZCwT7WKESVNXZAHnGv2XDJ3fqgHFJRaAJPvIcZCNzeGsjtVpmHEuJQZDZD',
+	token = '',
 	senderName = '',
 	moment = require('moment');
 
@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.set('port', process.env.PORT || 8080);
 
 app.get('/', function(req, res) {
-  if (req.query['hub.verify_token'] === 'abc') {
+  if (req.query['hub.verify_token'] === 'xxxx') {
      res.send(req.query['hub.challenge']);
    } else {
      res.send('Error, wrong validation token');
